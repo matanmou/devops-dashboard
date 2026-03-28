@@ -1,0 +1,94 @@
+    1  git clone https://github.com/matanmou/devops-dashboard.git devops-dashboard
+    2  cd devops-dashboard
+    3  git log
+    4  git remote -v
+    5  git status
+    6  ls -a
+    7  nano main.py
+    8  git add main.py
+    9  git commit -m "add main.py file"
+   10  git push -u origin main
+   11  git status
+   12  cd devops-dashboard
+   13  git status
+   14  git log
+   15  git pull
+   16  ls
+   17  nano main.py
+   18  git add main.py
+   19  git commit -m "add sysinfo module anf his func to main.py"
+   20  git push
+   21  nano main.py
+   22  python3 main.py
+   23  nano sysinfo.py
+   24  python3 main.py
+   25  nano tmpt.txt
+   26  python3 main.py
+   27  rm tmpt.txt
+   28  ls
+   29  nano main.py
+   30  python3 main.py
+   31  nano manage_tasks.py
+   32  nano tasklist.py
+   33  python3 main.py
+   34  nano tasklist.py
+   35  python3 main.py
+   36  nano tasklist.py
+   37  python3 main.py
+   38  nano tasklist.py
+   39  python3 main.py
+   40  nano tasklist.py
+   41  python3 main.py
+   42  nano tasklist.py
+   43  python3 main.py
+   44  nano tasklist.py
+   45  python3 main.py
+   46  nano tasklist.py
+   47  python3 main.py
+   48  nano tasklist.py
+   49  python3 main.py
+   50  nano tasklist.py
+   51  python3 main.py
+   52  nano tasklist.py
+   53  python3 main.py
+   54  nano tasklist.py
+   55  python3 main.py
+   56  nano tasklist.py
+   57  python3 main.py
+   58  nano tasklist.py
+   59  python3 main.py
+   60  nano tasklist.py
+   61  python3 main.py
+   62  nano tasklist.py
+   63  python3 main.py
+   64  nano tasklist.py
+   65  python3 main.py
+   66  nano tasklist.py
+   67  python3 main.py
+   68  nano tasklist.py
+   69  python3 main.py
+   70  nano main.py
+   71  git add main.py
+   72  git commit -m "add logcheck module anf his func to main.py"
+   73  git push
+   74  nano main.py
+   75  git add .
+   76  git commit -m "add tasklist module and his func to main.py and fix bugs in all modules"
+   77  git push
+   78  git config --global user.name
+   79  git config --global user.email
+   80  shh-keygen -t ed25519 -C "matanmo93@gmail.com"
+   81  ssh-keygen -t ed25519 -C "matanmo93@gmail.com"
+   82  ls -a
+   83  cat ~/.ssh/id_ed25519.pub
+   84  ssh -T git@github.com
+   85  git remote -v
+   86  git remote set-url origin git@github.com:matanmou/devops-dashboard.git
+   87  git remote -v
+   88  echo "SSH authentication enabled" >> README.md
+   89  git add README.md
+   90  git commit -m "switch to SSH authentication"
+   91  git push
+   92  git pull
+   93  cat README.md
+   94  history >> history.txt
