@@ -16,9 +16,9 @@ Enrer your choise: """))
         if user_choise == 1:
                 sysinfo.show_sysinfo()
         elif user_choise == 2:
-                print("Coming soon...")
+                logcheck.check_log()
         elif user_choise == 3:
-                print("Coming soon...")
+                print("Comming soon...")
         elif user_choise == 0:
                 break
         else:
