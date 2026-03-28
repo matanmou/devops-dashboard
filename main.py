@@ -1,7 +1,8 @@
+#the main menu project
 import sysinfo
 import logcheck
 import tasklist
-
+#repeat the menu till exit
 while True:
         user_choise = int(input("""
 MAIN MENU
