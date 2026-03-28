@@ -1,3 +1,7 @@
+import sysinfo
+import logcheck
+import tasklist
+
 while True:
         user_choise = int(input("""
 MAIN MENU
@@ -10,7 +14,7 @@ MAIN MENU
 Enrer your choise: """))
 
         if user_choise == 1:
-                print("Coming soon...")
+                sysinfo.show_sysinfo()
         elif user_choise == 2:
                 print("Coming soon...")
         elif user_choise == 3:
