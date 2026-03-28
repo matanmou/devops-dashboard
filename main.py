@@ -18,7 +18,7 @@ Enrer your choise: """))
         elif user_choise == 2:
                 logcheck.check_log()
         elif user_choise == 3:
-                print("Comming soon...")
+                tasklist.manage_tasks()
         elif user_choise == 0:
                 break
         else:
