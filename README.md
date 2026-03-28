@@ -1,1 +1,1 @@
-# devops-dashboard
+# devops-dashboardSSH authentication enabled
